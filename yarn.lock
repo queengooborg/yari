@@ -13051,10 +13051,10 @@ mdn-data@2.0.14:
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.14.tgz#7113fc4281917d63ce29b43446f701e68c25ba50"
   integrity sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==
 
-mdn-data@2.0.20:
-  version "2.0.20"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.20.tgz#3bb10361eb9beaf4efad0959179734b8205314a9"
-  integrity sha512-bGgNVI2DIdIEZ/ZIAo1+YwOSRtKvUNvpKEZJ0qT+UClkQLQfqpv5NMv0PeFxhOOw380bBTRSPdfaH1nFhMsoVQ==
+mdn-data@2.0.30:
+  version "2.0.30"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.30.tgz#ce4df6f80af6cfbe218ecd5c552ba13c4dfa08cc"
+  integrity sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==
 
 mdn-data@2.0.4:
   version "2.0.4"
