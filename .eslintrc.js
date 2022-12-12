@@ -14,8 +14,13 @@ module.exports = {
     es2020: true,
     "jest/globals": true,
   },
-  extends: ["eslint:recommended", "plugin:n/recommended"],
-  plugins: ["jest", "unicorn"],
+  extends: [
+    "eslint:recommended",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:n/recommended",
+  ],
+  plugins: ["import", "jest", "unicorn"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
@@ -23,7 +28,20 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2020,
   },
+  settings: {
+    "import/resolver": {
+      typescript: true,
+      node: true,
+    },
+  },
   rules: {
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always",
+        groups: ["builtin", "external", "parent", "sibling", "index", "type"],
+      },
+    ],
     "one-var": ["error", "never"],
     "unicorn/prefer-node-protocol": "error",
   },
