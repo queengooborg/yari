@@ -74,7 +74,7 @@
     "imagemin-pngquant": "9.0.2",
     "imagemin-svgo": "9.0.0",
     "inquirer": "^8.1.2",
-    "is-svg": "4.2.2",
+    "is-svg": "5.0.0",
     "js-yaml": "4.1.0",
     "loglevel": "^1.7.1",
     "lru-cache": "^6.0.0",
